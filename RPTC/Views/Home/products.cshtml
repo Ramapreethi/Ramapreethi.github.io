@@ -1,0 +1,115 @@
+﻿<h1><b><i>OUR PRODUCTS</i></b></h1>
+
+<style>
+.flip-card {
+  background-color: lightyellow;
+  height: 400px;
+  perspective: 1000px;
+  width: 300px;
+}
+
+.flip-card-inner {
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+  width: 100%;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  backface-visibility: hidden;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.flip-card-front {
+  z-index: 1;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+}
+
+.flip-card img {
+  display: block;
+  height: 100%;
+  max-width: 200%;
+}
+
+.flip-card-back h2,
+.flip-card-back p {
+  color: #000;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  margin: 20px;
+}
+
+.flip-card-back h2 {
+  font-size: 24px;
+  margin-top: 60px;
+}
+
+.flip-card-back p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.flip-card {
+   margin: 0 auto; /* Center align the flip card horizontally */
+        /* Other styles */
+   }
+
+</style>
+
+<div><h4><i>Turmeric Powder</i></h4></div>
+<div class="flip-card">
+    <div class="flip-card-inner">
+        <div class="flip-card-front">
+            <img src="~/images/Turmeric-Powder-and-Whole.jpeg" alt="Image Description">
+        </div>
+        <div class="flip-card-back">
+            <h2>Turmeric powder</h2>
+            <p class="justify-content-evenly">
+                Turmeric powder is a bright yellow spice powder made from dried turmeric rhizomes. While its slightly peppery and warm flavour; vibrant colour; and preservative properties make it a great culinary ingredient, the presence of 'curcumin' makes is suitable for cosmetic and medicinal purposes
+            </p>
+        </div>
+    </div>
+</div>
+<div><h4><i>Dried Turmeric Finger </i></h4></div>
+<div class="flip-card">
+    <div class="flip-card-inner">
+        <div class="flip-card-front">
+            <img src="~/images/dried-turmeric-finger-996.jpg" alt="Image Description">
+        </div>
+        <div class="flip-card-back">
+            <h2>Dried Turmeric Finger</h2>
+            <p class="justify-content-evenly">
+                Dried turmeric is made by peeling, boiling, and drying the rhizomes, which are then sold whole or ground.
+                Whole fingers are used for best flavor and grind them as needed using a microplane or spice grinder.
+            </p>
+        </div>
+    </div>
+</div>
+<div><h4><i>Dried Turmeric Bulb </i></h4></div>
+<div class="flip-card">
+    <div class="flip-card-inner">
+        <div class="flip-card-front">
+            <img src="~/images/turmeric_bulb.jpg" alt="Image Description">
+        </div>
+        <div class="flip-card-back">
+            <h2>Dried Turmeric Bulb</h2>
+            <p class="justify-content-evenly">
+                Turmeric Bulb is great for beginners who are home gardeners . It comes with a pack of health benefits that almost seems unbelievable.
+            </p>
+        </div>
+    </div>
+</div>
+
